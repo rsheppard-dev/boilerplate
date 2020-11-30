@@ -2,9 +2,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>UI Library</title>
+  <style>
+    body { font-size: 1.5em; }
+    .container { margin: 40px; margin-top: 60px; }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <!-- tooltips -->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span class="tooltip" data-message="I'm a tooltip!!">Dolorum molestiae</span> saepe nostrum delectus veritatis et sequi sunt voluptas provident natus, minus tempora quasi amet necessitatibus inventore, officiis cupiditate fugit! Tempore?</p>
+
+    <h2>Services</h2>
+    <!-- dropdowns -->
+    <div class="dropdown">
+      <div class="trigger">Awesome T-Shirt Designs</div>
+      <div class="content">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo dignissimos laboriosam asperiores quis architecto iure saepe. Aliquid repudiandae quo similique, in provident, molestiae dolores excepturi reprehenderit impedit eius vitae odio?</p>
+      </div>
+    </div>
+
+    <div class="dropdown">
+      <div class="trigger">Cool Sticker Printing</div>
+      <div class="content">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum sint omnis corporis mollitia quasi similique aperiam, maiores reprehenderit earum quidem ab cum error dolores nesciunt exercitationem, voluptatum cumque veniam accusantium.</p>
+      </div>
+    </div>
+  </div>
   <script src="assets/bundle.js"></script>
 </body>
 </html>
